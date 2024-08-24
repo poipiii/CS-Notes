@@ -11,7 +11,7 @@ References:
 ---
 ## Abstract
 ---
-- Extending from existing [[OOP#OOP Class]], the child classes take up all the properties and methods of their parent classes, building up on existing [[Abstraction|abstraction]]
+- Extending from existing [[OOP#OOP Class]], the child classes take up all the properties and methods of their parent classes, building up on existing [[Software Engineering/Abstraction|abstraction]]
 
 >[!important]
 > Inheritance should be used only when a **clear [[#"Is-a" Relationship|hierarchical relationship]]** and **shared behaviours** exist between the **parent (or base) class** and the **child (or derived) class**. 
@@ -32,3 +32,17 @@ References:
 
 
 
+# composition
+---
+## Abstract
+- works by passing around the instance of a class between classes 
+-  allows us to create  new more complex class out of existing classes, without breaking the abstraction barrier of existing classes
+- more flexible than inheritance as  you do not need to implement any abstract methods defined by the parent class you only need to consume it 
+- preserves encapusaltion and is reusable
+### "Has-A" Relationship
+- Composition models a situation where one class contains or uses another class. For example, a `Car` class might have an `Engine` class as a member. This shows that a car "has an" engine.
+
+
+### **super** in java
+- When you create a constructor in a subclass and want to call a constructor of the superclass, the `super` call must be the **first line** of the constructor.
+- If you don’t explicitly call `super()`, Java will automatically insert a call to the default no-argument constructor of the superclass.

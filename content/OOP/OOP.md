@@ -14,13 +14,13 @@ References:
 
 ![[oop_4_pillars.png|500]]
 
-- There are 4 core pillars  in OOP - [[Abstraction]], [[Inheritance]], [[Polymorphism]] and [[Encapsulation]]
+- There are 4 core pillars  in OOP - [[Software Engineering/Abstraction]], [[Inheritance]], [[Polymorphism]] and [[Encapsulation]]
 
 
 
 ## OOP Class
 ---
-- An [[Abstraction]] over a group of similar items that share the **same properties** and **actions**
+- An [[Software Engineering/Abstraction]] over a group of similar items that share the **same properties** and **actions**
 
 ### Inner Class
 - An [[#OOP Class]] inside an OOP Class

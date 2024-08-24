@@ -27,7 +27,7 @@ References:
 >	1. **Any lines** from the center of circle to its circumference is the **same length**
 ### 2. Giving things (meaningful) names
 - Give names to objects that describe its properties (Or to differentiate each one)
-- It is like forming an [[Abstraction]] over something, then we have more brain power to build on top of it
+- It is like forming an [[Software Engineering/Abstraction]] over something, then we have more brain power to build on top of it
 >[!example] Example 1: Approaching a problem related to Circle,  [[Inscribed Angle Theorem.excalidraw]]
 >1. Give [[Θ (Theta)]] a name
 ### 3. Leverage symmetry

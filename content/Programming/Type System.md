@@ -12,7 +12,7 @@ References:
 ---
 ## Abstract
 ---
-- A set of rules about [[Datatype]] of [[Abstraction#Data Abstraction|variable]], [[Expression]], [[Function]], and their interactions
+- A set of rules about [[Datatype]] of [[Software Engineering/Abstraction#Data Abstraction|variable]], [[Expression]], [[Function]], and their interactions
 
 >[!important] 
 > It covers

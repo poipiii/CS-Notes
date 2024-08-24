@@ -39,6 +39,11 @@ References:
 - In [[Java]], custom datatypes **aren't** [[Immutability|immutable]]
 - Examples are [[OOP#OOP Class]] and [[#Struct]]
 
+### Composite Data Type
+-  _composite data type_ allows programmers to group _primitive types_ together, give it a name to become a new type
+- Examples are 
+
+
 >[!caution] Value comparison of custom datatype in Java
 > We can't use `==` to compare [[OOP#OOP Object]], because `==` compares the value holding by the variable. However, variables are only holding the [[Memory Address]] to the OOP Object. So if we want to compare the value of OOP Object, we need to use the `equals()` method.
 
@@ -63,7 +68,11 @@ References:
 
 ## Struct
 ---
-- Allows us to group a set of data to form our own [[Datatype]]. Refer to [Struct in GO](https://youtu.be/8uiZC0l4Ajw?si=UpYAqgfaw9H8BMxE&t=1867) to see how struct is implemented and used in Go
+- Allows us to group a set of types to form our own [[Datatype]].  Refer to [Struct in GO](https://youtu.be/8uiZC0l4Ajw?si=UpYAqgfaw9H8BMxE&t=1867) to see how struct is implemented and used in Go
+-  In java it is called a composite data type 
+-  in typescript it is called interfaces 
+
+
 
 
 ## Rust Datatype

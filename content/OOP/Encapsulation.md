@@ -13,8 +13,26 @@ description:
 ---
 ## Abstract
 ---
-- **Group** related [[Abstraction#Data Abstraction|variables]] and [[Abstraction#Control Abstraction|functions]] together to create a [[OOP#OOP Class|OOP class]]
+- **Group** related [[Software Engineering/Abstraction#Data Abstraction|variables]] and [[Software Engineering/Abstraction#Control Abstraction|functions]] together to create a [[OOP#OOP Class|OOP class]]
 - This class manages **how data is hidden** and allow **access** through **class itself** or its **methods**, ensuring **data safety**
+
+
+>[!important] how to model a problem in an object-oriented manner and name them 
+>typically we use nouns as the class name , properties as the relationship between classes and fields and verbs or actions as the methods 
+>example: `Users need to be able to make bookings from an origin to a destination airport which may comprise multiple connecting flights. We record the booking date.`
+>![[Pasted image 20240820202036.png]]
+
+
+### when to stop modeling in a oop manner?
+
+| Question                                       | Guideline                                                        | Example                                                                                      |
+| ---------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Is there multiple properties to be stored?     | Create a class if multiple properties are involved.              | **Airport**: If only storing one data point (e.g., name), no need for a class.               |
+| Is there an action associated with the entity? | Create a class if actions are associated with the entity.        | **User**: Even with a single property, has associated actions, so model as a class.          |
+| Is there a real-world counterpart?             | Model entities based on real-world counterparts.                 | **User and Booking**: Both have real-world counterparts, so model them as separate classes.  |
+| Is there potential for changes to the entity?  | Create a class if the entity may change or expand in the future. | **Airport**: If future data like country is to be stored, a class can minimize code changes. |
+|                                                |                                                                  |                                                                                              |
+
 
 
 ## Tell, Don't Ask

@@ -19,7 +19,7 @@ References:
 > [!success] Fix: use a common interface
 > - Abstract the Square & Rectangle properties into an interface, implement the width & length in the each of the class -> so we aren't able to substitute object on the **obtain length**(Only available to the Reactangle object), thus ensuring [[OOP Compatibility]]
 
->[!success] Preventing [[Inheritance]] and [[Method Overriding]]
+>[!success] Preventing [[Inheritance]] and [[Overriding]]
 >- Make it easier to argue for the correctness of programs
 >- We can make the  [[Class]] [[Final]] or the individual [[Methods]] [[Final]]
 >- ``java.lang.Math`` & ``java.lang.String`` cannot be inherited

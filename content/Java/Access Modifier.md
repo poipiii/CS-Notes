@@ -23,7 +23,7 @@ description:
 
 ## private
 ---
-- When a field or [[OOP Method]] is declared as `private`, it can only be accessed within the [[OOP#OOP Class|class]] in which it is declared. Direct access from outside the class is not allowed. This helps with maintaining the [[Abstraction#Abstraction Barrier|abstraction barrier]]
+- When a field or [[OOP Method]] is declared as `private`, it can only be accessed within the [[OOP#OOP Class|class]] in which it is declared. Direct access from outside the class is not allowed. This helps with maintaining the [[Software Engineering/Abstraction#Abstraction Barrier|abstraction barrier]]
 
 >[!important]
 > Objects of the same class **can access** each other's `private` fields and methods. Because the `private` access modifier restricts access at the **class level**, not the **object level**.

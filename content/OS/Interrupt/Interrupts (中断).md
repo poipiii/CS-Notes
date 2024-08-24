@@ -97,7 +97,7 @@ aliases:
 > Sent after a specified number of seconds has elapsed to notify a process of an **event**
 
 >[!example]- Turn off interrupt in XV6-RISCV
-> This is achieved by writing to the [[Register#Control & Status Registers (CSRs)]] - `sstatus`. The code snippets below going down the [[Abstraction]] 
+> This is achieved by writing to the [[Register#Control & Status Registers (CSRs)]] - `sstatus`. The code snippets below going down the [[Software Engineering/Abstraction]] 
 > 
 > `intr_off()` is the entry point
 > ```c {8} title="spinlock.c"

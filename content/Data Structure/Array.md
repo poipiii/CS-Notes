@@ -56,7 +56,7 @@ References:
 
 -  It is $O(1)$  to index **any elements** in an [[Array]]
 - $elementAddr = firtstElementAddr + elementLength \times elementIndex$ is the **indexing formula** where `elementIndex` is $0$ when we try to access the **first element**
-- In most programming languages, `my_array[i]` is a **convenient syntax** that [[Abstraction|abstracts]] the process of accessing the element at index `i` in an array. While the underlying mechanism usually involves **calculating the [[Memory Address]]** of the element and then **[[Pointer#Pointer Dereference|dereferencing]] that address** to **obtain the value**
+- In most programming languages, `my_array[i]` is a **convenient syntax** that [[Software Engineering/Abstraction|abstracts]] the process of accessing the element at index `i` in an array. While the underlying mechanism usually involves **calculating the [[Memory Address]]** of the element and then **[[Pointer#Pointer Dereference|dereferencing]] that address** to **obtain the value**
 
 ### Array Versus Linked List
 - When iterating over **all elements** in an [[Array]] and a [[Linked List]], the **array** is typically **much faster** if the elements are present in the [[CPU Cache]]. This is because arrays store elements in [[Data Structure#Continuous Memory|contiguous memory]], allowing them to benefit from [[CPU Cache#Cache Locality|cache locality]]. However, when [[CPU Cache#Cache Miss|cache misses]] occur, an **array** may be **slightly slower** than a **linked list**, as it needs to **calculate** the [[Memory Address|memory address]] of each **subsequent element**, whereas the next **element's address** is **directly stored** within each **node of a linked list**

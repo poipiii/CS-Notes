@@ -15,6 +15,8 @@ References:
 ## Abstract
 ---
 - **A set** of [[Instruction]] that can be triggered to **accomplish a particular task**
+- it allow programmers to compartmentalize computation and its effects within the functions body 
+- it enables abstraction by hiding _how_ a task is performed ,only allowing interactions via paramters 
 
 ### Function Signature 
 - Refers to the declaration of a function
