@@ -7,7 +7,7 @@ tags:
   - boolean_algebra
   - computer_organisation
 Creation Date: 2023-08-20T15:47:57+08:00
-Last Date: 2024-09-30T22:32:31+08:00
+Last Date: 2024-10-12T13:45:13+08:00
 References: 
 draft: 
 ---
@@ -34,7 +34,7 @@ draft:
 
 ## Product Term
 ---
-- A single [[#Boolean Literal]] or a [[AND]] of several Boolean Literals
+- A single [[#Boolean Literal]] or a single [[AND]] of several Boolean Literals
 
 ### Sum-of-Products (SOP) 
 - A [[#Product Term]] or a [[OR]] of multiple Product Term
@@ -42,7 +42,7 @@ draft:
 
 ## Sum Term
 ---
--  A single [[#Boolean Literal]] or a [[OR]] of multiple Boolean Literals
+-  A single [[#Boolean Literal]] or a single [[OR]] of multiple Boolean Literals
 
 ### Product-of-Sums (POS) 
 - A single [[#Sum Term]] or [[AND]] of multiple Sum Term
