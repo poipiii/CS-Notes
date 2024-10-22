@@ -21,7 +21,7 @@ References:
 
 ### simplified mips flow 
 ![[9BF8D94D-157B-453F-9BA1-B432397FC0A1_1_201_a.jpeg]]
-=======
+
 >[!important]
 > We use temporary registers `$t0` to `$t7` for intermediate results.
 

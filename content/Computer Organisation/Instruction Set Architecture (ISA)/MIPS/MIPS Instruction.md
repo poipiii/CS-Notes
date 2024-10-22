@@ -22,7 +22,7 @@ References:
 
 
 **32 bits**, the **first 6 bits** are [[Instruction#Opcode]]
-=======
+
 - **32 bits**, the **first 6 bits** are [[ISA Instruction Format#Opcode]]
 - There are 3 different format types - [[MIPS R-Type Instruction]], [[MIPS I-Type Instruction]] and [[MIPS J-Type Instruction]]
 
@@ -41,7 +41,7 @@ References:
 - 6bits 
 - labeled as op
 - used to specify to the control what operation to perform 
-=======
+
 ### Source Register 
 - 5bits
 - Labeled `rs`, mapped to `RR1`
