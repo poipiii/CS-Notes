@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2023-10-15T19:39:44
-Last Date: 2024-06-15T16:14:24+08:00
+Last Date: 2024-10-24T08:52:44+08:00
 References: 
 description: Discusses the concept of asynchronous and synchronous sequential circuits, touching on level-sensitive and edge-triggered circuits, latches and flip-flops, Emphasising the benefits of synchronization in the design and analysis of circuits.
 sr-due: 2024-03-13
@@ -44,16 +44,7 @@ aliases:
 
 - **Active High** when it is considered to be **active** when **level is high**
 - **Active Low** when it is considered to be **active** when **level is low**
-### Latch
-- [[#Asynchronous Sequential Circuit]] that is able to remember a [[Computer Data Representation#Bit]] when the **input power turns to inactive**
 
->[!example]
->- [[Set Reset Latch]]
->- [[Data Latch]]
-#### Steering Gate
-- Introduces a **control input** that determines whether the [[#Latch]] is in a **transparent**(allows data to pass through) or **opaque** state(holds its current state, blocking any changes from the input)
-- When the steering gate is active (usually set to a certain logic level), the latch becomes transparent
-- Often used in digital circuits for **synchronization** and **control purposes**
 
 
 ## Synchronous Sequential Circuit
@@ -76,9 +67,6 @@ aliases:
 - **Positive edge triggering:** Transition from a low voltage (0) to a high voltage (1) on the clock signal
 - **Negative edge triggering:** Transition from a high voltage (1) to a low voltage (0) on the clock signal
 
-### Flip-flops
-- A form of [[#Synchronous Sequential Circuit]]
-
 
 
 ## Terminologies
@@ -90,9 +78,12 @@ aliases:
 
 ### Multivibrator
 - A class of [[Sequential Circuit]]
-	1. [[Bistable (2 stable states)]]
-	2. [[Monostable or one-shot (1 stable state)]]
-	3. [[Astable (no stable state)]]
+
+>[!important] 3 types
+> 1. Bistable (2 stable states), like [[Latch]]
+> 2. Monostable or one-shot (1 stable state)
+> 3. Astable (no stable state)
+
 
 
 

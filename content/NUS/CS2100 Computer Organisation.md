@@ -8,7 +8,7 @@ tags:
   - computer_organisation
   - boolean_algebra
 Creation Date: 2024-02-12, 18:18
-Last Date: 2024-10-21T06:20:52+08:00
+Last Date: 2024-10-24T09:21:00+08:00
 References: 
 draft: 
 description: Find notes and cheat sheets for NUS CS2100 on this website. Get help preparing for your final exam and answers to your questions.
@@ -151,6 +151,18 @@ title: cs2100 nus notes
 - [ ] [[Combination Circuit]]
 - [ ] [[Decoder]]
 - [ ] [[Multiplexer]]
+
+
+## Week 10
+---
+- [ ] [[Sequential Circuit]]
+- [ ] [[Main Memory#Memory Element]]
+- [ ] [[Latch]]
+- [ ] [[Flip-flop]]
+- [ ] [[Set Reset Latch]]
+- [ ] [[Data Latch]]
+
+
 ## The Processor
 ---
 - [[CPU]]
@@ -164,19 +176,13 @@ title: cs2100 nus notes
 ## Circuit Simplification
 ---
 - [[Circuit Design]]
-- [[Gray Code]]
-- [[Karnaugh Map]]
+
 
 ## Combinational Circuits
 ---
 - [[Combination Circuit]]
 - [[Adder]]
 
-## Sequential Circuits
----
-- [[Sequential Circuit]]
-- [[Set Reset Latch]]
-- [[Data Latch]]
 
 ## Pipelining
 ---

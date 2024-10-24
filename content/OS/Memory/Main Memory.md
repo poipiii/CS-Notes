@@ -23,7 +23,7 @@ References:
 - A device which can remember value **indefinitely**
 - Change value on command from its inputs
 - A basic unit of storage element, able to store 1 [[Computer Data Representation#Bit]]
-- 2 Types - [[Sequential Circuit#Latch]] & [[Sequential Circuit#Flip-flops]]
+- 2 Types - [[Latch]] & [[Flip-flop]]
 
 ### Physical Address
 - The address that points to a collection of [[#Memory Element]]
