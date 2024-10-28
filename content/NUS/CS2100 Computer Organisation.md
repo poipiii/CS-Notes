@@ -8,7 +8,7 @@ tags:
   - computer_organisation
   - boolean_algebra
 Creation Date: 2024-02-12, 18:18
-Last Date: 2024-10-24T09:21:00+08:00
+Last Date: 2024-10-28T08:07:08+08:00
 References: 
 draft: 
 description: Find notes and cheat sheets for NUS CS2100 on this website. Get help preparing for your final exam and answers to your questions.
@@ -161,6 +161,9 @@ title: cs2100 nus notes
 - [ ] [[Flip-flop]]
 - [ ] [[Set Reset Latch]]
 - [ ] [[Data Latch]]
+- [ ] [[Sequential Circuit Analysis]]
+- [ ] [[Register#Memory Register]]
+- [ ] [[Main Memory#SRAM]]
 
 
 ## The Processor

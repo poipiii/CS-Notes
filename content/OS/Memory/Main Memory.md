@@ -7,7 +7,7 @@ tags:
   - OS
   - computer_organisation
 Creation Date: 2023-10-07T16:38:29+08:00
-Last Date: 2024-07-22T16:49:23+08:00
+Last Date: 2024-10-28T08:05:46+08:00
 References: 
 ---
 ## Abstract
@@ -46,6 +46,8 @@ References:
 > - SRAM will **hold** its **data permanently** in the **presence of power**
 > - Faster than [[#DRAM]]
 
+>[!question] How does it work?
+> SRAM is typically built using [[Flip-flop|flip-flops]], with each flip-flop **holding one bit**. If each register is 32 bits, we **arrange 32 flip-flops in a row**. All flip-flops connect to a **common input and output data line**. A **control line**, connected to all flip-flops, specifies whether we want to read from or write to the flip-flops. The **address activates a particular row** of flip-flops.
 ## DRAM
 ---
 - Stands for **D**ynamic **R**andom **A**ccess **M**emory
