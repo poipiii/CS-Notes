@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2024-10-29, 17:30
-Last Date: 2024-10-29T21:02:51+08:00
+Last Date: 2024-10-30T07:41:25+08:00
 References: 
 draft: 
 description: 
@@ -24,7 +24,20 @@ description:
 
 
 ### Pipeline Control Hazard
-- Change in program flow, and we need [[Pipeline Flush]] to handle this. It is hit to the performance. So we can reduce it by [[Branch Prediction]]
+- A situation that occurs in a pipeline when the flow of instructions is disrupted, usually due to a **branch instruction** (like jumps or conditional branches)
+
+>[!caution] Performance hit!
+> We need to perform a [[Pipeline Flush]], which results in losing the performance gains from [[Instruction-Level Parallelism]]. To minimise this, we can use [[Branch Prediction]].
+
+>[!important] Solution 1: Early branch
+> For [[MIPS]], a pipeline control hazard causes a **3-clock cycle delay** due to [[Pipeline Flush|pipeline flushing]]. 
+> 
+> Early branching moves the branching decision from the `MEM` stage to the `ID` stage, resulting in only a **1-clock cycle delay** because the branch decision is made during the **second stage** (`ID`). 
+> 
+> However, if the **branch parameter** depends on an instruction like `add`, there will be a **2-clock cycle delay** since we **need to wait 1 clock cycle** for `add` to calculate the branch parameter in the `ALU` stage. A **3-clock cycle** delay occurs if it’s a `lw` instruction, as we must wait until the `MEM` stage.
+
+>[!important] Solution 2: Delayed branch
+> The idea is to move **non-control-dependent** [[Instruction|instructions]] into the $X$ cycles needed to **determine the branch outcome**. This reordering is handled by the [[Language Processors#Compiler|compiler]], allowing the program to continue as long as the **correctness of the program isn't violated**.
 
 ## References
 ---
