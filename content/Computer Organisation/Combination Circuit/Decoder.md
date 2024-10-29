@@ -11,7 +11,7 @@ References:
 draft: 
 description: 
 ---
-	## Abstract
+## Abstract
 ---
 - Convert binary information from $n$ input lines to a maximum of $2^n$ output lines
 - Also known as $n:m$, where $m \leq 2^n$, $m$ is the number of outputs of [[Boolean Function]] we are trying to implement

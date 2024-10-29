@@ -8,7 +8,7 @@ tags:
   - computer_organisation
   - boolean_algebra
 Creation Date: 2024-02-12, 18:18
-Last Date: 2024-10-28T08:07:08+08:00
+Last Date: 2024-10-29T07:53:22+08:00
 References: 
 draft: 
 description: Find notes and cheat sheets for NUS CS2100 on this website. Get help preparing for your final exam and answers to your questions.
@@ -139,12 +139,17 @@ title: cs2100 nus notes
 - [ ] [[OR]]
 - [ ] [[Programming Logic Array]]
 - [ ] [[Adder]]
+- [ ] [[Circuit Design]]
 - [ ] [[Gray Code]]
 - [ ] [[Karnaugh Map]]
 
 >[!seealso] Extra Readings
 > -  [[Transistors (晶体管)]]
 
+## Week 8
+---
+- [[Combination Circuit]]
+- [[Adder]]
 
 ## Week 9
 ---
@@ -165,34 +170,27 @@ title: cs2100 nus notes
 - [ ] [[Register#Memory Register]]
 - [ ] [[Main Memory#SRAM]]
 
-
-## The Processor
+## Week 11
 ---
-- [[CPU]]
+### Basics
+- [ ] [[Pipelining]]
+- [ ] [[Instruction-Level Parallelism]]
+
+
+
 
 >[!seealso] Interesting Related Topics
+> - [[CPU]]
 > - [[GPU]]
 > - [[Specialised Processor]]
 
 
 
-## Circuit Simplification
----
-- [[Circuit Design]]
 
-
-## Combinational Circuits
----
-- [[Combination Circuit]]
-- [[Adder]]
 
 
 ## Pipelining
 ---
-### Basics
-- [[Pipeline]]
-- [[Instruction-Level Parallelism]]
-
 ### Pipeline Hazards
 - [[Read-After-Write(RAW) Hazard]]
 - [[Pipeline Stall]]

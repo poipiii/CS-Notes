@@ -16,10 +16,10 @@ description:
 - It specifies how different parts of an [[Instruction|instruction]] are organised within a **binary code word**
 
 ### Fixed-length Instruction
-- Simplifies [[Pipeline]] & [[Instruction-Level Parallelism]]
+- Simplifies [[Pipelining]] & [[Instruction-Level Parallelism]]
 
 ### Variable-length Instruction
-- More flexible but more complicated [[Pipeline]] & [[Instruction-Level Parallelism]]
+- More flexible but more complicated [[Pipelining]] & [[Instruction-Level Parallelism]]
 - Requires multi-step [[Instruction Stages#Fetch]] and [[Instruction Stages#Decode]]
 
 
