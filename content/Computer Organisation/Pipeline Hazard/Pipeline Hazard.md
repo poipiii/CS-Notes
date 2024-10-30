@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2024-10-29, 17:30
-Last Date: 2024-10-30T07:41:25+08:00
+Last Date: 2024-10-31T00:20:49+08:00
 References: 
 draft: 
 description: 
@@ -16,7 +16,7 @@ description:
 - Problems that prevent next instruction form immediately following previous instruction
 
 ### Pipeline Structural Hazard
-- simultaneous use of a hardware resource which can be handle by [[Pipeline Stall]] or divide the stage into 2 parts, for example **register stage can be divided into write and read**. WB writes back first followed by ID reads 
+- Simultaneous use of a hardware resource which can be handle by [[Pipeline Stall]] or divide the stage into 2 parts, for example **register stage can be divided into write and read**. WB writes back first followed by ID reads 
 
 ### Pipeline Data Hazard
 - A [[Pipeline Hazard]] occurs when an [[Instruction]] depends on the result of a previous instruction. This can be managed using [[Operand Forwarding]] and a [[Pipeline Stall]]
@@ -30,7 +30,7 @@ description:
 > We need to perform a [[Pipeline Flush]], which results in losing the performance gains from [[Instruction-Level Parallelism]]. To minimise this, we can use [[Branch Prediction]].
 
 >[!important] Solution 1: Early branch
-> For [[MIPS]], a pipeline control hazard causes a **3-clock cycle delay** due to [[Pipeline Flush|pipeline flushing]]. 
+> For [[MIPS]], a pipeline control hazard causes a **3-clock cycle delay** due to [[Pipeline Flush|pipeline flushing]]. A simple approach is to stall the pipeline for three clock cycles until the branch outcome is **determined**.
 > 
 > Early branching moves the branching decision from the `MEM` stage to the `ID` stage, resulting in only a **1-clock cycle delay** because the branch decision is made during the **second stage** (`ID`). 
 > 

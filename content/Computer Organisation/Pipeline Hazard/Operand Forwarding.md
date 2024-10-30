@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2023-07-20T18:20:00
-Last Date: 2024-10-29T20:57:48+08:00
+Last Date: 2024-10-30T07:44:08+08:00
 References: 
 ---
 ## Abstract
@@ -19,7 +19,7 @@ References:
 >[!important] Results can't be forwarded
 > ![[load_use_data_hazard.png|500]]
 > 
-> If an instruction that **directly follows a load instruction** uses the data loaded by it, a [[Pipeline Stall|pipeline stall]] is necessary. This stall occurs **because loading data from memory takes one CPU cycle**. In this case, we must apply a pipeline stall.
+> If an instruction that **directly follows a load instruction** uses the data loaded by it, a [[Pipeline Stall|pipeline stall]] is necessary. This stall occurs **because loading data from memory takes one extra CPU cycle**. In this case, we must apply a pipeline stall.
 
 ## References
 ---
