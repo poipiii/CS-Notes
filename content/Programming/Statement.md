@@ -17,7 +17,7 @@ draft:
 
 >[!example]
 >- Definition of [[Function]]
->- Value assignment, in some languages like [[C]], value assignment is [[Expression]]
+>- Value assignment, in some languages like [[C/C]], value assignment is [[Expression]]
 
 
 ## Rust Statement

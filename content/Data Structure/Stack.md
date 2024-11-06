@@ -58,7 +58,7 @@ References:
 Both support Stack Operations without much difference
 
 **Time Efficiency**
-- [[Array]] has [[CPU Cache#Cache Locality]] to take advantage of [[CPU Cache]] for extreme fast access. However,  array has fixed size. If there isn't any space left in the array, new insertion needs to create a new array and transfer all elements to that new array, and the time complexity will be O(n)
+- [[Array]] has [[Cache Locality]] to take advantage of [[CPU Cache]] for extreme fast access. However,  array has fixed size. If there isn't any space left in the array, new insertion needs to create a new array and transfer all elements to that new array, and the time complexity will be O(n)
 - [[Linked List]] has to use extra time to perform pointer operation 
 - Conclusion: Array has slightly better time efficiency, since expansion is a low frequency operation, while pointer operation occurs whenever there is an insertion operation. However, [[Linked List]] has more stable performance
 

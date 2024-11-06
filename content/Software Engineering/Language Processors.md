@@ -19,7 +19,7 @@ References:
 
 ## Compiler
 ---
-- Translate Programming Language codes to [[Instruction]] or an intermediate code like [[Assembly language]] in [[C]] and **Bytecode** in [[Java]]
+- Translate Programming Language codes to [[Instruction]] or an intermediate code like [[Assembly language]] in [[C/C]] and **Bytecode** in [[Java]]
 - 
 
 ### Variable Mapping

@@ -458,7 +458,7 @@ import java.util.*;
 > And we can perform sorting on subset of the dataset at a time. For example, if our dataset is 10GB, and we need to load the data into the RAM to perform the sorting, but there is only 2GB RAM. With merge sort, we are able to load in 2GB at a time to perform sorting, and eventually sort the dataset.
 
 >[!caution]- Slow on small arrays!
-> The allocation of different arrays are scattered in the [[Main Memory]]. Merge sort has a **space complexity of $O(n)$** with different temporary arrays at each merge layer. Working on multiple arrays means we sacrifice the performance gain from [[CPU Cache#Cache Locality]]. 
+> The allocation of different arrays are scattered in the [[Main Memory]]. Merge sort has a **space complexity of $O(n)$** with different temporary arrays at each merge layer. Working on multiple arrays means we sacrifice the performance gain from [[Cache Locality]]. 
 > 
 > The [[Recursion]] nature of the algorithm comes with extra overhead too. Recursion is also less predicable, thus impact the [[Branch Prediction]] negatively.
 > 

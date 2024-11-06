@@ -23,12 +23,12 @@ References:
 
 
 >[!attention] Cache Miss!!!
-> Since the connection between 2 nodes are via Pointer, the nodes are scattered around the Main Memory. This means we can't make use of [[CPU Cache#Cache Locality]] and this results in a very high rate [[CPU Cache#Cache Miss]].
+> Since the connection between 2 nodes are via Pointer, the nodes are scattered around the Main Memory. This means we can't make use of [[Cache Locality]] and this results in a very high rate [[Cache Miss]].
 > 
 > ![[linked_list_cache_miss.gif]]
 
 >[!caution] Memory Leak
-> For languages like [[C]] which doesn't come with a [[Garbage Collector]], we need to manually release deleted node from the [[Address Space#Heap Segment]] to prevent [[Address Space#Memory leak]].
+> For languages like [[C/C]] which doesn't come with a [[Garbage Collector]], we need to manually release deleted node from the [[Address Space#Heap Segment]] to prevent [[Address Space#Memory leak]].
 
 
 

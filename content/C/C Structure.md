@@ -32,7 +32,7 @@ typedef struct {
 > Using the code snippet above, we can access and modify the `balance` using `a_1.balance;`
 
 >[!important] Dereferencing a pointer to a structure and accessing its attributes
-> We need to make sure we use parentheses like `(*player_ptr).name`, because `.` has a higher [[C#C Operator Precedence|operator precedence]].
+> We need to make sure we use parentheses like `(*player_ptr).name`, because `.` has a higher [[C/C#C Operator Precedence|operator precedence]].
 > 
 > Or we can simply use `player_ptr->name` to achieve the same, this is a syntactic sugar.
 

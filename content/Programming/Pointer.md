@@ -66,7 +66,7 @@ draft:
 ## Null Pointer
 ---
 - [[Pointer]] that doesn't point to any memory location, basically contains a invalid [[Memory Address]]
-- In [[C]], it is represented by `0` or `nullptr`
+- In [[C/C]], it is represented by `0` or `nullptr`
 - In [[Java]], it is represented by `null`, [[Datatype#Custom Datatype]] can be `null`
 - In [[Go]], it is represented with `nil`
 

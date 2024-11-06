@@ -20,7 +20,7 @@ description:
 
 >[!important]
 > **Super fast**
-> - **Address translation** takes less than [[Latency Number|one clock cycle]], and [[CPU Cache#Cache Locality|cache locality]] helps keep **miss rates** to just a **few percent**.
+> - **Address translation** takes less than [[Latency Number|one clock cycle]], and [[Cache Locality|cache locality]] helps keep **miss rates** to just a **few percent**.
 >   
 > **Super small**
 > - Usually only contains $32$ or $64$ page table entries, while a [[Page Table|page table]] usually contains **1 million entries**.

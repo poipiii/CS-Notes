@@ -40,7 +40,7 @@ description:
 - String in [[Go]] is encoded with [[#UTF-8]] and is treated as an [[Array]] of [[Computer Data Representation#Byte]]. This explains why the index is off and `len(myString)` returns $8$, instead of $6$
 
 ![[utf-8_string_go.png|500]]
-- This behaviour applies to other languages like [[C]], you get $7$ when you run `printf("%d", strlen("😊家"));`, instead of $2$
+- This behaviour applies to other languages like [[C/C]], you get $7$ when you run `printf("%d", strlen("😊家"));`, instead of $2$
 
 
 >[!tip] Abstract away this weird behavior 
