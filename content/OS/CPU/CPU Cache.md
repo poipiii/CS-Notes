@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - OS
 Creation Date: 2023-07-14T20:41:40+08:00
-Last Date: 2024-11-06T16:27:29+08:00
+Last Date: 2024-11-09T10:50:16+08:00
 References: 
 ---
 ## Abstract
@@ -26,28 +26,16 @@ References:
 >[!important] Spatial locality
 > A cache line typically contains one or more [[Computer Data Representation#Word|words]]. When the CPU fetches data from memory, it retrieves an entire cache line, not just the specific bytes needed immediately. This takes advantage of [[Cache Locality#Spacial Locality|spatial locality]].
 
-### CPU Cache and Cache Line Internals
-
-```
-+-----------------------------------------------------------+
-|                        32-bit Address                     |
-+-----------------------+------------+----------+-----------+
-|         Cache         |   Cache    |   Word   |    Byte   |
-|          Tag          |   Index    |  Offset  |   Offset  |
-|        (18 bits)      | (10 bits)  | (2 bits) |  (2 bits) |
-+-----------------------+------------+----------+-----------+
- ```
-
-- In the above example, the [[CPU Cache]] has $2^{10}$ [[#Cache Line]], each contains $2^2$ words, each [[Computer Data Representation#Word|word]] is $2^2$ bytes 
-- Each cache line is indexed with a **cache index**. This allows a CPU cache with limited storage to cover the entire main memory because **multiple physical addresses can map to the same cache line**. However, this mapping also means that multiple physical addresses share the same cache line. To **distinguish between these different addresses**, each cache line includes a **cache tag** that **identifies the specific physical address** currently stored in that line
-
->[!question] How is cache line updated?
-> ![[cpu_cache_cache_line.png|600]]
+>[!question] How big should a cache line be?
+> ![[cache_line_size.png]]
 > 
-> 1. We first use the **cache index to locate the cache line**
-> 2. We use the **valid bit** to check if the cache line contains data. If it does, and the **tag matches the given address**, we can select the word needed using the **word offset** with a help of a [[Multiplexer]]
-> 3. Otherwise, there is a cache miss.
-
+> The **larger the cache line**, the better we can **take advantage of spatial localit**y, since we have more surrounding data cached in the cpu cache.
+> 
+> However, this brings a **larger miss penalty**, as it **takes longer to transfer** one cache line to the CPU cache.
+> 
+> Furthermore, CPU cache has a **very limited size**. The larger the cache line, the **fewer cache lines** can be loaded into the CPU cache. Consequently, the cached data tends to be more concentrated, and the **miss rate will increase**.
+> 
+> Therefore, we need to find a **sweet spot in the cache line size** to **maximise spatial locality** and **reduce the miss penalty and miss rate**.
 
 
 

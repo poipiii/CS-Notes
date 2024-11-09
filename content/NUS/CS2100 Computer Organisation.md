@@ -8,7 +8,7 @@ tags:
   - computer_organisation
   - boolean_algebra
 Creation Date: 2024-02-12, 18:18
-Last Date: 2024-11-06T17:19:42+08:00
+Last Date: 2024-11-09T11:18:29+08:00
 References: 
 draft: 
 description: Find notes and cheat sheets for NUS CS2100 on this website. Get help preparing for your final exam and answers to your questions.
@@ -194,7 +194,9 @@ title: cs2100 nus notes
 
 ## Week 12
 ---
-- [ ] [[CPU Cache]]
 - [ ] [[Cache Locality]]
+- [ ] [[CPU Cache]]
 - [ ] [[Cache Miss]]
 - [ ] [[Cache Strategy]]
+- [ ] [[Direct Mapped Cache]]
+- [ ] [[Set Associative Cache]]

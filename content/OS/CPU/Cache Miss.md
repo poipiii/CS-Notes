@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2024-11-06, 16:30
-Last Date: 2024-11-06T17:42:43+08:00
+Last Date: 2024-11-09T11:39:02+08:00
 References: 
 draft: 
 description: 
@@ -23,6 +23,9 @@ description:
 ### Conflict Miss
 - Also known as **collision miss** or **interference miss**
 - When multiple data mapped to the same [[CPU Cache#Cache Line]]
+
+>[!important]
+> This can be reduced with [[Set Associative Cache]]. A [[Direct Mapped Cache]] of size $N$ has about the same miss rate as a [[Set Associative Cache|2-way set associative cache]] of size $N/2$.
 
 ### Capacity Miss
 - When data is discarded from [[CPU Cache]] as the cpu cache is running out of space 
