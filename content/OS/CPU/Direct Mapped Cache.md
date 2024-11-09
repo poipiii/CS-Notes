@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2024-11-09, 10:49
-Last Date: 2024-11-09T15:41:27+08:00
+Last Date: 2024-11-09T20:56:18+08:00
 References: 
 draft: 
 description: 
@@ -16,6 +16,10 @@ description:
 ```
 +-----------------------------------------------------------+
 |                        32-bit Address                     |
++-----------------------+------------+----------+-----------+
+|                 Block              |        Offset        |
+|                 Number             |                      |
+|               (28 bits)            |       (4 bits)       |
 +-----------------------+------------+----------+-----------+
 |         Cache         |   Cache    |   Word   |    Byte   |
 |          Tag          |   Index    |  Offset  |   Offset  |
@@ -32,5 +36,3 @@ description:
 > 1. We first use the **cache index to locate the cache line**
 > 2. We use the **valid bit** to check if the cache line contains data. If it does, and the **tag matches the given address**, we can select the word needed using the **word offset** with a help of a [[Multiplexer]]
 > 3. Otherwise, there is a cache miss.
-
-

@@ -6,12 +6,20 @@ Author Profile:
 tags:
   - OS
 Creation Date: 2023-07-14T20:41:40+08:00
-Last Date: 2024-11-09T10:50:16+08:00
+Last Date: 2024-11-09T21:02:36+08:00
 References: 
 ---
 ## Abstract
 ---
 - A **small-sized** type of volatile computer memory that provides **high-speed data access** to a [[CPU]]. **10-100 times faster** than accessing accessing data from [[Main Memory]]. Built with [[Main Memory#SRAM]]
+
+
+>[!important] CPU Cache size calculation
+> [[Direct Mapped Cache]]: Cache size = (Number of cache blocks) × (Block size)
+> 
+> [[Set Associative Cache]]: Cache size = (Number of sets) × (Associativity) × (Block size)
+> 
+> [[Fully Associative Cache]]: Cache size = (Number of cache blocks) × (Block size)
 
 >[!question] Differences between L1, L2, and L3 CPU Cache?
 > **L1 Cache** is known as **primary cache**, runs at the **same speed** as the **CPU**.

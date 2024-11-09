@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2024-11-09, 10:52
-Last Date: 2024-11-09T15:55:20+08:00
+Last Date: 2024-11-09T20:51:44+08:00
 References: 
 draft: 
 description: 
@@ -16,6 +16,10 @@ description:
 ```
 +-----------------------------------------------------------+
 |                        32-bit Address                     |
++-----------------------+------------+----------+-----------+
+|                 Block              |        Offset        |
+|                 Number             |                      |
+|               (29 bits)            |       (3 bits)       |
 +-----------------------+------------+----------+-----------+
 |         Cache         |    Set     |   Word   |    Byte   |
 |          Tag          |   Index    |  Offset  |   Offset  |
