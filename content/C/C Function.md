@@ -17,7 +17,7 @@ description:
 
 
 ### Function Prototype
-- In [[C]], a function prototype consists of the **return type**, **name of the function**, and the **list of parameter [[Datatype|datatypes]]** (names of parameters are **optional**)
+- In [[C/C]], a function prototype consists of the **return type**, **name of the function**, and the **list of parameter [[Datatype|datatypes]]** (names of parameters are **optional**)
 
 >[!important] Placement of function prototype
 > It's good practice to put function prototypes at the top of the program, before the `main()` function. This informs the [[Language Processors#Compiler|compiler]] of the functions your program may use, along with their return types and parameter types.

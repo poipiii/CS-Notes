@@ -8,7 +8,7 @@ tags:
   - computer_organisation
   - boolean_algebra
 Creation Date: 2024-02-12, 18:18
-Last Date: 2024-10-21T06:20:52+08:00
+Last Date: 2024-11-09T17:29:51+08:00
 References: 
 draft: 
 description: Find notes and cheat sheets for NUS CS2100 on this website. Get help preparing for your final exam and answers to your questions.
@@ -139,59 +139,66 @@ title: cs2100 nus notes
 - [ ] [[OR]]
 - [ ] [[Programming Logic Array]]
 - [ ] [[Adder]]
+- [ ] [[Circuit Design]]
 - [ ] [[Gray Code]]
 - [ ] [[Karnaugh Map]]
 
 >[!seealso] Extra Readings
 > -  [[Transistors (晶体管)]]
 
+## Week 8
+---
+- [[Combination Circuit]]
+- [[Adder]]
 
 ## Week 9
 ---
 - [ ] [[Combination Circuit]]
 - [ ] [[Decoder]]
 - [ ] [[Multiplexer]]
-## The Processor
+
+
+## Week 10
 ---
-- [[CPU]]
+- [ ] [[Sequential Circuit]]
+- [ ] [[Main Memory#Memory Element]]
+- [ ] [[Latch]]
+- [ ] [[Flip-flop]]
+- [ ] [[Set Reset Latch]]
+- [ ] [[Data Latch]]
+- [ ] [[Sequential Circuit Analysis]]
+- [ ] [[Register#Memory Register]]
+- [ ] [[Main Memory#SRAM]]
+
+## Week 11
+---
+### Basics
+- [ ] [[Pipelining]]
+- [ ] [[Instruction-Level Parallelism]]
+
+### Pipeline Hazards
+- [ ] [[Pipeline Hazard]]
+- [ ] [[Pipeline Stall]]
+- [ ] [[Read-After-Write(RAW) Hazard]]
+- [ ] [[Operand Forwarding]]
+- [ ] [[Pipeline Flush]]
+- [ ] [[Out-of-Order Execution]]
+- [ ] [[Pipeline Branching]]
+- [ ] [[Branch Prediction]]
+- [ ] [[Branch Prediction Strategies (Heuristics)]]
 
 >[!seealso] Interesting Related Topics
+> - [[CPU]]
 > - [[GPU]]
 > - [[Specialised Processor]]
 
-
-
-## Circuit Simplification
+## Week 12
 ---
-- [[Circuit Design]]
-- [[Gray Code]]
-- [[Karnaugh Map]]
-
-## Combinational Circuits
----
-- [[Combination Circuit]]
-- [[Adder]]
-
-## Sequential Circuits
----
-- [[Sequential Circuit]]
-- [[Set Reset Latch]]
-- [[Data Latch]]
-
-## Pipelining
----
-### Basics
-- [[Pipeline]]
-- [[Instruction-Level Parallelism]]
-
-### Pipeline Hazards
-- [[Read-After-Write(RAW) Hazard]]
-- [[Pipeline Stall]]
-- [[Operand Forwarding]]
-- [[Out-of-Order Execution]]
-
-### Pipeline Branching
-- [[Pipeline Branching]]
-- [[Pipeline Flush]]
-- [[Branch Prediction]]
-- [[Branch Prediction Strategies (Heuristics)]]
+- [ ] [[Cache Locality]]
+- [ ] [[CPU Cache]]
+- [ ] [[Cache Miss]]
+- [ ] [[Cache Strategy]]
+- [ ] [[Direct Mapped Cache]]
+- [ ] [[Set Associative Cache]]
+- [ ] [[Fully Associative Cache]]
+- [ ] [[Cache Eviction]]

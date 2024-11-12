@@ -16,7 +16,7 @@ References:
 - **Pause the [[Instruction]]** before the previous Instruction has [[Instruction Stages#Write Back]] the data it needs to
 
 >[!attention] Performance hit
-> Too much pipeline stall will reduce the benefits of [[Pipeline]]. Because when one instruction stalls, the other instructions that are dependent on the previous instruction have to stall too. 
+> Too much pipeline stall will reduce the benefits of [[Pipelining]]. Because when one instruction stalls, the other instructions that are dependent on the previous instruction have to stall too. 
 > 
 > We can minimize such situation by using [[Out-of-Order Execution]] & [[Operand Forwarding]].
 

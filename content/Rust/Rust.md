@@ -14,6 +14,6 @@ description:
 ## Abstract
 ---
 - General-purpose languages that focuses on performance, [[Type Safety]] and [[Concurrency (并发)]]
-- Syntax is similar to [[C]]
+- Syntax is similar to [[C/C]]
 - Heavily influenced by concepts from [[Functional Programming]] like [OCamel](https://ocaml.org/) and [Haskell Language](https://www.haskell.org/)
 - [Rust Tooling](https://youtu.be/4q3Z5RBX7hQ?si=mzy_sZov7n34tUJD&t=373)

@@ -16,7 +16,7 @@ References:
 
 
 >[!success] Cache Hit
-> Elements of array are stored in [[Main Memory]] in a **compact manner**, thus making great use of [[CPU Cache#Cache Locality]].
+> Elements of array are stored in [[Main Memory]] in a **compact manner**, thus making great use of [[Cache Locality]].
 
 >[!important] 
 > Array has a **fixed size**. If we want to **expand**, we have to **create another bigger array** & **copy all the elements** to the new array which is very **time consuming**.
@@ -59,7 +59,7 @@ References:
 - In most programming languages, `my_array[i]` is a **convenient syntax** that [[Abstraction|abstracts]] the process of accessing the element at index `i` in an array. While the underlying mechanism usually involves **calculating the [[Memory Address]]** of the element and then **[[Pointer#Pointer Dereference|dereferencing]] that address** to **obtain the value**
 
 ### Array Versus Linked List
-- When iterating over **all elements** in an [[Array]] and a [[Linked List]], the **array** is typically **much faster** if the elements are present in the [[CPU Cache]]. This is because arrays store elements in [[Data Structure#Continuous Memory|contiguous memory]], allowing them to benefit from [[CPU Cache#Cache Locality|cache locality]]. However, when [[CPU Cache#Cache Miss|cache misses]] occur, an **array** may be **slightly slower** than a **linked list**, as it needs to **calculate** the [[Memory Address|memory address]] of each **subsequent element**, whereas the next **element's address** is **directly stored** within each **node of a linked list**
+- When iterating over **all elements** in an [[Array]] and a [[Linked List]], the **array** is typically **much faster** if the elements are present in the [[CPU Cache]]. This is because arrays store elements in [[Data Structure#Continuous Memory|contiguous memory]], allowing them to benefit from [[CPU Cache#Cache Locality|cache locality]]. However, when [[Cache Miss|cache misses]] occur, an **array** may be **slightly slower** than a **linked list**, as it needs to **calculate** the [[Memory Address|memory address]] of each **subsequent element**, whereas the next **element's address** is **directly stored** within each **node of a linked list**
 
 
 

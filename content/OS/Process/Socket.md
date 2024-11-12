@@ -71,7 +71,7 @@ description:
 > Server socket can accept **many client connections** at the same time.
 
 >[!code] C Code Example
-> You can refer to this [Medium Article](https://medium.com/swlh/getting-started-with-unix-domain-sockets-4472c0db4eb1) to implement UNIX Domain Socket on both the client and server using [[C]].
+> You can refer to this [Medium Article](https://medium.com/swlh/getting-started-with-unix-domain-sockets-4472c0db4eb1) to implement UNIX Domain Socket on both the client and server using [[C/C]].
 
 >[!code]
 > You can use `find / -type s` to list down all the unix domain socket files on the system.

@@ -31,7 +31,7 @@ description:
 ## Binary Tree Linked List Representation
 ---
  ![[binary_tree_linked_list.png|400]]
-- Compared to the [[#Binary Tree Array Representation|array representation]], the linked list representation of a binary tree is **easier to scale in terms of size**, but it comes with **higher memory usage** due to the overhead of storing pointers for each node. Additionally, it cannot take advantage of [[CPU Cache#Cache Locality|CPU cache locality]] as effectively as the array representation
+- Compared to the [[#Binary Tree Array Representation|array representation]], the linked list representation of a binary tree is **easier to scale in terms of size**, but it comes with **higher memory usage** due to the overhead of storing pointers for each node. Additionally, it cannot take advantage of [[Cache Locality|CPU cache locality]] as effectively as the array representation
 ## Degenerate Binary Tree
 ---
 ![[bst_to_skewed_tree.png|400]]

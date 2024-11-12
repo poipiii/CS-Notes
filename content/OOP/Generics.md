@@ -48,7 +48,7 @@ References:
 > Because generic types are the same regardless of their parameterised types. So that means we can swap the same class with different parameterised types which will result in a mismatched assignment like assigning an integer returned from the generic to a string. This will work if the parameterised type is string.
 
 >[!caution] Bad for Caching
-> As you can see for array, the data is actually scattered around the memory. And this means we are unable to take advantage of [[CPU Cache#Cache Locality]] and each element indexing takes [[Latency Number|10-100 times longer]]! This is why Java is slower than system languages! Look at all the jumping around for the [[Linked List]] below.
+> As you can see for array, the data is actually scattered around the memory. And this means we are unable to take advantage of [[Cache Locality]] and each element indexing takes [[Latency Number|10-100 times longer]]! This is why Java is slower than system languages! Look at all the jumping around for the [[Linked List]] below.
 > 
 > ![[java_generics_memory_linked_list.gif]]
 

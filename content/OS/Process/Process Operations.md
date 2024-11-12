@@ -11,7 +11,7 @@ References:
 ---
 ## Abstract
 ---
-- [[Operation]] is described in [[C]]
+- [[Operation]] is described in [[C/C]]
 
 
 

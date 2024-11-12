@@ -7,16 +7,17 @@ tags:
   - OS
   - computer_organisation
 Creation Date: 2023-11-20T10:58:00
-Last Date: 2024-09-05T21:30:46+08:00
+Last Date: 2024-10-24T09:05:35+08:00
 References: 
 ---
 ## Abstract
 ---
-- A group of [[Sequential Circuit#Flip-flops]]
+- A group of [[Flip-flop|D Flip-flops]]
 - Accessible via [[Instruction]]
-- 2 main purposes
-	1. Storing values during computations like [[Memory Address]] & value
-	2. Configuring [[CPU]] to carry out computations
+
+>[!important] 2 main purposes
+> 1. Storing values during computations like [[Memory Address]] & value
+> 2. Configuring [[CPU]] to carry out computations
 
 >[!important] Registers have no datatypes
 > For example, `add` in [[MIPS]] assumes the data is in [[Integer Encoding (数字编码)#2's Complement (补码)]] and `addu` assumes the data is unsigned binary number.

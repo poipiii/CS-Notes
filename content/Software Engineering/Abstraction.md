@@ -45,5 +45,5 @@ References:
 ![[layers_of_abstraction_in_programming.png|300]]
 - Layer 1. [[Instruction]]
 - Layer 2. [[Assembly language]]
-- Layer 3. [[C]]
+- Layer 3. [[C/C]]
 - Layer 4. Even high-level languages like Python

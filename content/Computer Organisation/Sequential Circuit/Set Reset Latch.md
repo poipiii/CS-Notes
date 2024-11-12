@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - computer_organisation
 Creation Date: 2023-10-07T16:38:28+08:00
-Last Date: 2024-02-04T18:21:26+08:00
+Last Date: 2024-10-24T08:39:33+08:00
 References: 
 sr-due: 2024-02-25
 sr-interval: 13
@@ -15,7 +15,7 @@ description: A latch that stores a single bit of computer data and allows for re
 ---
 ## Abstract
 ---
-- [[Sequential Circuit#Latch]] that has one **set input** to store a **single** [[Computer Data Representation#Bit]], and another **reset input** to **reset the stored bit**
+- [[Latch]] that has one **set input** to store a **single** [[Computer Data Representation#Bit]], and another **reset input** to **reset the stored bit**
 </br>
 
 - **Active Set:** turn on the output
@@ -34,30 +34,33 @@ description: A latch that stores a single bit of computer data and allows for re
 - Refer to footnote for a nice visualisation on how it works[^1]
 
 
-### Circuit 2
+### Active-high Latch
 ![[S-R_Latch_nor.png|700]]
 - Can be built with two [[NOR]]
 - Refer to footnote for a nice visualisation on how it works[^2]
 </br>
 
->[!question] What is the output when latch first turned on without any inputs?
-> In an ideal case, the output will be switching from **on** to **off** in **super short interval**. To human eyes, it is always on
+>[!question] What is the output when the latch first turned on without any inputs?
+> In an ideal case, the output would switch from **on to off in a very short interval**. To human eyes, it would appear to be constantly on.
 > 
-> However, in the real world, even the same two gates with the same wire will have a slightly different [[Logic Gates#Gate Delay]]. Sometimes, one gate may have a shorter gate delay than another
+> However, in the real world, even two identical gates with the same wiring will have slightly different [[Logic Gates#Gate Delay|gate delays]]. Sometimes, one gate may have a shorter delay than the other.
 > 
-> Thus, the output can be `0` or `1` when the latch is first turned on
+> As a result, the output **can be either `0` or `1`** when the latch is first turned on.
 > 
 > Refer to footnote for a nice visualisation of how it works[^3]
 
-### Circuit Diagram & Truth Table
-![[S-R Latch.png|500]]
-- `Q` is the 1 bit storage
-- The Abstracted Diagram
-![[S-R_Latch_diagram.png|200]]
+>[!important] Circuit diagram & truth table
+> ![[S-R Latch.png|500]]
+> 
+> `Q` is the 1 bit storage. Below is a block diagram:
+> 
+> ![[S-R_Latch_diagram.png|200]]
+
 ## Gated S-R Latch
 ---
 ![[gated_sr_latch.png|500]]
-- [[Set Reset Latch]] with [[Sequential Circuit#Steering Gate]]
+
+- [[Set Reset Latch#Active-high Latch]] made with [[Latch#Steering Gate]] and active-low latch
 - Only active when `EN` is high
 
 [^1]: [[#Circuit 1]] (From `1:15` to `2:36`)
