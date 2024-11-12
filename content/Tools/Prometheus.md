@@ -6,14 +6,14 @@ Author Profile:
 tags:
   - devops
 Creation Date: 2024-11-06, 14:39
-Last Date: 2024-11-07T16:51:48+08:00
+Last Date: 2024-11-12T13:36:05+08:00
 References: 
 draft: 
 description: 
 ---
 ## Abstract
 ---
-- The **standard monitoring tool** used in **container and microservices infrastructure**
+- The **standard monitoring tool** used in **container** and **microservices infrastructure**
 
 >[!question] Why we need Prometheus?
 > **Hundreds of interconnected processes** serve users in these environments. If one process fails, it can trigger a **cascade of failures in other processes**, making it **difficult to pinpoint the root cause** from the end user's perspective. Prometheus provides visibility into the application and infrastructure of these hundreds of processes, **enabling proactive identification of issues instead of reactive debugging**. With Prometheus, we can continuously monitor processes, receive alerts about crashes, and even configure alerts for predefined thresholds.
@@ -93,7 +93,12 @@ scrape_configs:
 - [[Prometheus]] evalutes the rules and push alerts to Prometheus alert manager which will fire the alerts to different notification channel like email 
 
 ### Prometheus Data Storage
-- [[Prometheus]] stores **time series data** on a local disk-based time series database, but it can also optionally integrate with remote storage systems. The data is stored in a **custom time series format**, so we can't write it directly into a [[Database Paradigms#Relational|relational database]]
+- [[Prometheus]] stores **time series data** in a time-series database (TSDB) on the local [[File System|filesystem]], but it can also optionally integrate with remote storage systems. The data is stored in a **custom time series format**, so we can't write it directly into a [[Database Paradigms#Relational|relational database]]
+
+>[!important]
+> By default, this data is stored in the **`data/`** directory within Prometheus's working directory. You can customize this location by modifying the **`--storage.tsdb.path`** flag when starting Prometheus.
+> 
+> To control how long Prometheus retains data, use the **`--storage.tsdb.retention.time`** flag. This flag accepts a duration value (e.g., **`15d`** for 15 days).
 
 ### Prometheus PromQL
 - The query format used to obtain data from the [[#Prometheus Data Storage]], used by data visulisation tool like Grafana to create nice dashboards
