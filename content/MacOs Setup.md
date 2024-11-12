@@ -5,7 +5,7 @@ Author Profile:
   - https://linkedin.com/in/xinyang-yu
 tags: 
 Creation Date: 2023-11-30T16:47:00
-Last Date: 2024-07-21T19:02:19+08:00
+Last Date: 2024-11-12T14:21:15+08:00
 References: 
 title: Macos setup for software engineer
 ---
@@ -207,6 +207,7 @@ ssid=`networksetup -getairportnetwork en0 | awk -F": " '{print $2}'`
 
 ## Hardware Tools
 ---
+- [ ] [[Prometheus On Macos]]
 - [ ] [GPU & Accelerator process monitoring](https://github.com/Syllo/nvtop)
 - [ ] [Perf monitoring CLI tool for Apple Silicon](https://tlkh.github.io/asitop/)
 - [ ] [rpi-imager](https://github.com/raspberrypi/rpi-imager)

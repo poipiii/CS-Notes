@@ -6,10 +6,10 @@ Author Profile:
 tags:
   - devops
 Creation Date: 2024-11-10, 14:50
-Last Date: 2024-11-12T13:38:05+08:00
+Last Date: 2024-11-12T14:20:09+08:00
 References: 
 draft: 
-description: 
+description: 3 Steps to Set Up Prometheus on Your macOS Laptop
 ---
 ## 1. Install Prometheus
 ---
@@ -38,6 +38,9 @@ scrape_configs:
 
 - Restart Prometheus with `brew services restart prometheus`
 
+>[!bug]
+> The node exporter is unable to collect [[Prometheus#Prometheus Metric]] like RAM usage. Let me know if you know a fix for this, thanks.
+
 ## 3. Grafana Visualisation 
 ---
 - Install Grafana with `brew install grafana`
@@ -46,4 +49,4 @@ scrape_configs:
 	- Default login credentials: username - `admin`, password - `admin`
 - For more information refers to [here](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/)
 - Add Prometheus as a data source, using `http://localhost:9090` as the URL
-- Import the ["Node Exporter Full" dashboard](https://grafana.com/grafana/dashboards/1860-node-exporter-full/) from Grafana Labs:
+- Import the ["Node Exporter Full" dashboard](https://grafana.com/grafana/dashboards/1860-node-exporter-full/) from Grafana Labs
